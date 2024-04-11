@@ -27,6 +27,7 @@ pipeline{
 		stage('5-S5'){
 			steps{
 				sh 'du -h'
+				echo 'Welcome to Jenkins'
 			}
 		}
 	}
